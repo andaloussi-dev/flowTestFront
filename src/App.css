@@ -1,0 +1,228 @@
+.sider {
+  height: 100vh;
+}
+
+.logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+[data-theme="dark"] .site-layout-sub-header-background {
+  background: #141414;
+}
+
+.ant-layout-sider {
+  height: 100% !important;
+}
+
+.news-image {
+  padding-right: 20px;
+  border-radius: 15%;
+  align-self: center;
+}
+h1 {
+  color: #fff !important;
+}
+
+.headerTitle {
+  padding: 5px;
+}
+
+.provider-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.news-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.provider-name {
+  padding-left: 20px;
+}
+
+.news-container {
+  width: 500px;
+  background-color: #262836;
+  padding-right: 30px;
+  box-shadow: rgb(88 102 126 / 8%) 0px 4px 24px,
+    rgb(88 102 126 / 12%) 0px 1px 2px !important;
+  border-radius: 15px;
+}
+
+.statsCards-container {
+  margin-top: 50px;
+}
+
+.topFiveCryptos-container {
+  margin-top: 30px;
+}
+
+.mini-titles {
+  font-size: 17px !important;
+  color: rgb(255 255 255 / 69%) !important;
+}
+
+.coin-name-container {
+  display: flex;
+}
+
+.coin-avatar {
+  margin-right: 10px !important;
+}
+
+.coin-symbol {
+  margin-left: 10px !important;
+}
+
+.coin-info {
+  font-size: medium;
+  font-weight: 500;
+}
+
+.sider {
+  height: auto !important;
+}
+
+.ant-layout-sider {
+  background: rgb(23, 23, 26) !important;
+}
+
+.ant-menu.ant-menu-dark {
+  background: rgb(23, 23, 26) !important;
+}
+
+.ant-layout-header {
+  background: rgb(23, 23, 26) !important;
+}
+.ant-layout {
+  background: linear-gradient(
+    rgb(34, 37, 49) 0%,
+    rgba(34, 37, 49, 0) 413px
+  ) !important;
+}
+
+body {
+  background-color: #17171a !important;
+}
+
+h2.ant-typography {
+  color: rgb(255 255 255) !important;
+}
+
+.ant-card-bordered {
+  border: 1px solid #252732 !important;
+  border-radius: 8px !important;
+  box-shadow: rgb(88 102 126 / 8%) 0px 4px 24px,
+    rgb(88 102 126 / 12%) 0px 1px 2px !important;
+}
+
+.ant-card {
+  background: rgb(50, 53, 70) !important;
+}
+
+.ant-statistic-title {
+  color: rgb(255 255 255 / 35%) !important;
+}
+
+h5.ant-typography {
+  color: #fff !important;
+}
+
+.provider-name {
+  color: #a1a7bb !important ;
+}
+
+.ant-table {
+  background: #17171a !important;
+}
+
+.ant-table-cell-fix-left {
+  background: #17171a !important;
+}
+
+.ant-typography.ant-typography-secondary {
+  color: rgb(255 255 255) !important;
+}
+
+.ant-table-thead > tr > th {
+  background: #17171a !important;
+  border-bottom: 1px solid #222531 !important;
+  color: #ffffff !important;
+}
+
+.ant-table-tbody > tr > td {
+  border-bottom: 1px solid #222531 !important;
+}
+
+.ant-table-tbody > tr.ant-table-row:hover > td,
+.ant-table-tbody > tr > td.ant-table-cell-row-hover {
+  background: #1a1e30 !important;
+}
+
+.ant-select-item {
+  color: rgb(255 255 255 / 85%) !important;
+}
+
+.ant-select-dropdown {
+  background-color: #323546 !important;
+  border-radius: 15px !important;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  background-color: #323546 !important;
+}
+
+.ant-select {
+  color: rgb(255 255 255 / 85%) !important;
+  border: 1px solid #424556 !important;
+  border-radius: 15px !important;
+}
+
+.timestamp-select{
+ margin-left: 10px !important;
+}
+
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+  background-color: #6f7491 !important;
+}
+
+.ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+  background-color: #222538 !important;
+}
+
+.searchBar {
+  width: 100%;
+}
+
+.playerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.playerImage {
+  height: auto;
+  max-height: 300px;
+  width: auto;
+  max-width: 300px;
+
+}
+
+.ant-card-meta-detail>div:not(:last-child) {
+  color: #fff;
+}
+
+.ant-card-meta-description {
+  color: rgb(255 255 255 / 72%) !important;
+}
+
+.paginator {
+  display: flex !important;
+  align-items: center !important;
+  margin-top: 50px !important;
+}
