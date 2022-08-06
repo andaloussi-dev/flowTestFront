@@ -6,12 +6,12 @@ import { Players } from "../../components";
 const { Header, Content } = Layout;
 const { Title } = Typography;
 const { Search } = Input;
-const onSearch = (value) => console.log(value);
 
 
 function Home() {
   const [current, setCurrent] = useState(1);
   const { data: players, isFetching } = useGetplayersQuery();
+
   // change current page
   const onChange = (page) => {
     setCurrent(page);
@@ -22,8 +22,15 @@ function Home() {
   const indexOfFirstPlayer = indexOfLastPlayer - 6;
   const currentPlayers = players?.slice(indexOfFirstPlayer, indexOfLastPlayer);
 
+  // search by name
+
+  const onSearch = (value) => {
+    console.log(players);
+    console.log(players.find(({ firstname,lastname }) => firstname.includes(value) || lastname.includes(value)));
+  }
+
   if (isFetching) return "loading ...";
-  
+
   return (
     <div className="home">
       <Header

@@ -24,8 +24,8 @@ function Players({ players }) {
                     }
                 >
                     <Meta
-                        title={item?.firstname}
-                        description={item?.goal}
+                        title={item?.firstname + ' ' + item?.lastname}
+                        description={ 'GOALS :'+item?.goal + ' SALARY :' + item?.salary + item?.devise}
                     />
                 </Card>
             ))}
